@@ -71,7 +71,7 @@ This (beta version) repository is intended for anyone :-
 <p>
 
 * USB IRQ5 needs elevated priority for stdin `(getc, scanf etc. )` only - 
-* https://github.com/Serialcomms/Raspberry-Pico-USB-Serial/blob/e8e84a8d7e1b4450ce59facd5216b80ea410ca76/lib_usb_cdc_serial/USB_initialise.c#L34
+* https://github.com/Serialcomms/Raspberry-Pico-USB-Serial_BETA/blob/1bad6c7695f45c752714ae6b47bdccfb00ecb584/lib_usb_cdc_serial/USB_initialise.c#L34
 * Elevated IRQ5 priority may not be correct or fully SDK-compliant
   
 </p>
