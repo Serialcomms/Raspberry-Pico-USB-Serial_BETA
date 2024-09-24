@@ -138,15 +138,20 @@ Pico `stdio` and SDK functions all appear to work as expected, including :-
 <details><summary>Function List</summary>
 <p>   
 
-[USB CDC/ACM Functions](documents/functions.md)
+##### USB Functions
 
-SDK function `stdio_set_driver_enabled(&virtual_com_port, true);` can be used normally if required
+&emsp; [USB CDC/ACM Functions](documents/functions.md)
+
+##### SDK stdio
+
+&emsp; SDK function `stdio_set_driver_enabled();` can be used normally if required
    
-Pico can also be rebooted with a Break command from PuTTY or other client
+##### Pico remote reboot
 
-`PuTTY > Special Command > Break`
+&emsp; Pico can also be rebooted with a Break command from PuTTY or other client
 
-  
+&emsp; `PuTTY > Special Command > Break`
+
 </p>
 </details>   
 
