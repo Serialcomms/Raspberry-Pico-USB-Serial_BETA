@@ -1,0 +1,164 @@
+USB Bus Reset command received from host, function=usb_irq_bus_reset
+Disabling Setup Request Interrupts
+Processing USB Bus Reset command
+Build Host Default Endpoint 0, DPRAM Address=50100100
+Build Pico Default Endpoint 0, DPRAM Address=50100100
+Enabling Setup Request Interrupts
+Enabling Buffer Completion Interrupts
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 01, 00, 00, 40, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=8, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 12, 01, 10, 01, EF, 02, 01, 40
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=05, direction=0, type=00
+Setup Packet Bytes=00, 05, 02, 00, 00, 00, 00, 00
+Setup Device Handler, Device Address Changed, Pico New Address=2
+EP0 handler to Host, clearing buffer status, buffer bytes=0, queue bytes=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 01, 00, 00, 12, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=18, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 12, 01, 10, 01, EF, 02, 01, 40
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, FF, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=9, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 09, 02, 4B, 00, 02, 01, 00, 80
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 4B, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=64, queue bytes=11, last PID=8192
+ep0_queue_runner_to_host Queue Length = 11
+Continue Queued Transfer, data count = 11
+EP0 handler to Host, clearing buffer status, buffer bytes=11, queue bytes=0, last PID=0
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 02, 40, 00, 00, 07, 05, 02, 02
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 03, 00, 00, FF, 00
+Sending Language String, Index=0, bytes=09, 04
+EP0 handler to Host, clearing buffer status, buffer bytes=4, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 04, 03, 09, 04, 07, 05, 02, 02
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 02, 03, 09, 04, FF, 00
+String index=2, string length=15, buffer length=32
+Sending Text String, Index=2, Length=32, String=Pico CDC Serial
+EP0 handler to Host, clearing buffer status, buffer bytes=32, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 20, 03, 50, 00, 69, 00, 63, 00
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 01, 00, 00, 12, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=18, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 12, 01, 10, 01, EF, 02, 01, 40
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 09, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=9, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 09, 02, 4B, 00, 02, 01, 00, 80
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 4B, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=64, queue bytes=11, last PID=8192
+ep0_queue_runner_to_host Queue Length = 11
+Continue Queued Transfer, data count = 11
+EP0 handler to Host, clearing buffer status, buffer bytes=11, queue bytes=0, last PID=0
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 02, 40, 00, 00, 07, 05, 02, 02
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=09, direction=0, type=00
+Setup Packet Bytes=00, 09, 01, 00, 00, 00, 00, 00
+USB Set CDC Configuration, Number=1
+USB Build CDC Function Endpoints
+Build Host Function Endpoint 1, Queue Size=64, Endpoint Control=AC000180
+Build Host Function Endpoint 2, Queue Size=1024, Endpoint Control=A8000200
+Build Pico Function Endpoint 2, Queue Size=1024, Endpoint Control=A8000980
+COM Port Set Notify Line State = 0000
+Sending CDC line state notification on EP1, Request Type=A1, Data=0000, DCD=Off, DSR=Off, RI=Off
+Sending Set Notify Line State=0000, Size=10, Bytes=A1, 20, 00, 00, 00, 00, 02, 00, 00, 00
+USB Set CDC Configuration ++++++++++++++++++++++++++++++++++++
+EP0 handler to Host, clearing buffer status, buffer bytes=0, queue bytes=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 02, 03, 09, 04, 04, 00
+String index=2, string length=15, buffer length=32
+Sending Text String, Index=2, Length=32, String=Pico CDC Serial
+EP0 handler to Host, clearing buffer status, buffer bytes=32, queue bytes=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 09, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=9, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 09, 02, 4B, 00, 02, 01, 00, 80
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 02, 00, 00, 4B, 00
+EP0 handler to Host, clearing buffer status, buffer bytes=64, queue bytes=11, last PID=8192
+ep0_queue_runner_to_host Queue Length = 11
+Continue Queued Transfer, data count = 11
+EP0 handler to Host, clearing buffer status, buffer bytes=11, queue bytes=0, last PID=0
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 02, 40, 00, 00, 07, 05, 02, 02
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=1, request=21, direction=128, type=01
+Setup Packet Bytes=A1, 21, 00, 00, 00, 00, 07, 00
+CDC get line coding, Existing COM Port Settings=115200-8-N-1
+Line Coding Bytes (7) = 00, C2, 01, 00, 00, 00, 08
+EP0 handler to Host, clearing buffer status, buffer bytes=7, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 00, C2, 01, 00, 00, 00, 08, 02
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 00, 03, 00, 00, FF, 00
+Sending Language String, Index=0, bytes=09, 04
+EP0 handler to Host, clearing buffer status, buffer bytes=4, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 04, 03, 09, 04, 00, 00, 08, 02
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=1, request=22, direction=0, type=01
+Setup Packet Bytes=21, 22, 00, 00, 00, 00, 00, 00
+CDC Class SET_LINE_CONTROL_STATE, Interface=0, Value=0, DTR=Off, RTS=Off
+EP0 handler to Host, clearing buffer status, buffer bytes=0, queue bytes=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 01, 03, 09, 04, FF, 00
+String index=1, string length=12, buffer length=26
+Sending Text String, Index=1, Length=26, String=Raspberry Pi
+EP0 handler to Host, clearing buffer status, buffer bytes=26, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 1A, 03, 52, 00, 61, 00, 73, 00
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=1, request=20, direction=0, type=01
+Setup Packet Bytes=21, 20, 00, 00, 00, 00, 07, 00
+CDC Class SET_LINE_CODING, interface=0, size=7
+Control Transfer Data Stage, Expected Bytes=7
+EP0 handler to Pico, clearing buffer status, buffer bytes=7, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 00, C2, 01, 00, 00, 00, 08, 00
+Buffer Status, special case for EP0 CDC control transfer data, callback=10004A4D
+CDC get line coding, New COM Port Settings=115200-8-N-1, length=7
+EP0 handler to Host, clearing buffer status, buffer bytes=0, queue bytes=0, last PID=8192
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=0, request=06, direction=128, type=00
+Setup Packet Bytes=80, 06, 02, 03, 09, 04, FF, 00
+String index=2, string length=15, buffer length=32
+Sending Text String, Index=2, Length=32, String=Pico CDC Serial
+EP0 handler to Host, clearing buffer status, buffer bytes=32, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 20, 03, 50, 00, 69, 00, 63, 00
+-----------------------------------------------------------------------------------------
+Setup IRQ, preparing setup packet, recipient=1, request=21, direction=128, type=01
+Setup Packet Bytes=A1, 21, 00, 00, 00, 00, 07, 00
+CDC get line coding, Existing COM Port Settings=115200-8-N-1
+Line Coding Bytes (7) = 00, C2, 01, 00, 00, 00, 08
+EP0 handler to Host, clearing buffer status, buffer bytes=7, queue bytes=0, last PID=8192
+EP0 handler to Pico, clearing buffer status, buffer bytes=0, queue level=0, last PID=8192
+USB DPRAM EP0 Bytes     01-08 = 00, C2, 01, 00, 00, 00, 08, 00
+VCP set chars available callback, address=100002D5
