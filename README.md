@@ -187,7 +187,13 @@ Pico `stdio` and SDK functions all appear to work as expected, including :-
 <details><summary>Demo Versions</summary>  
 <p>
 
-demo versions go here
+##### Debug Version
+
+&emsp; Shows IRQ activity on uart0 (via debug probe or similar)
+
+&emsp; Simple menu allows for CDC notification testing - Ring, DCD, DSR 
+
+
 </p>
 </details> 
    
