@@ -187,9 +187,24 @@ Pico `stdio` and SDK functions all appear to work as expected, including :-
 <details><summary>Demo Versions</summary>  
 <p>
 
+#### Windows host
+
+&emsp; Check that a COM port is created in Device manager 
+
+&emsp; Use PuTTY or similar client to connect to it.
+
+#### Mac host
+
+&emsp; Check that a `/dev/tty.usbmodem...` is created
+
+&emsp; Use `cu` or similar client to connect to it.
+
+&emsp; e.g. `sudo cu -l /dev/tty/usbmodem1234`
+
+
 ##### Debug Version
 
-&emsp; Shows IRQ activity on uart0 (via debug probe or similar)
+&emsp; Shows Enumeration and IRQ activity on Pico `uart0` (via debug probe or similar)
 
 &emsp; Simple menu allows for CDC notification testing - Ring, DCD, DSR 
 
@@ -198,6 +213,8 @@ Pico `stdio` and SDK functions all appear to work as expected, including :-
 &emsp; Simple menu similar to above 
 
 &emsp; Other tests can be enabled in `stdio_tests.c`
+
+&emsp; No debug output. Stubs can be developed to drive LEDs etc if required.
 
 </p>
 </details> 
