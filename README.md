@@ -193,6 +193,11 @@ Pico `stdio` and SDK functions all appear to work as expected, including :-
 
 &emsp; Simple menu allows for CDC notification testing - Ring, DCD, DSR 
 
+##### Non-Debug Version
+
+&emsp; Simple menu similar to above 
+
+&emsp; Other tests can be enabled in `stdio_tests.c`
 
 </p>
 </details> 
