@@ -84,6 +84,8 @@ Works with original Pico, Pico W and other RP2040 boards
 
 [coolterm](https://freeware.the-meiers.org/) is recommended for testing [Signalling DSR/DCD/Ring](screenshots/coolterm_pico.png)
 
+[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is recommended for [debug](screenshots/PuTTY_debug.png)
+
 <details><summary>USB Enumeration</summary>
 <p>  
 
