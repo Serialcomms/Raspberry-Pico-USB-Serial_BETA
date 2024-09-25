@@ -82,7 +82,7 @@ This (beta version) repository is intended for anyone :-
 
 Works with original Pico, Pico W and other RP2040 boards
 
-[coolterm](https://freeware.the-meiers.org/) is recommended for testing [Signalling DSR/DCD/Ring](screenshots/)
+[coolterm](https://freeware.the-meiers.org/) is recommended for testing [Signalling DSR/DCD/Ring](screenshots/coolterm_pico.png)
 
 <details><summary>USB Enumeration</summary>
 <p>  
