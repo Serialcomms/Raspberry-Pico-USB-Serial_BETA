@@ -82,9 +82,9 @@ This (beta version) repository is intended for anyone :-
 
 Works with original Pico, Pico W and other RP2040 boards
 
-[CoolTerm](https://freeware.the-meiers.org/) is recommended for signalling testing [DSR/DCD/Ring](screenshots/coolterm_pico.png)
+&emsp; [CoolTerm](https://freeware.the-meiers.org/) is recommended for signalling testing [DSR/DCD/Ring](screenshots/coolterm_pico.png)
 
-[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is recommended for general [debug](screenshots/PuTTY_debug_probe.png)
+&emsp; [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is recommended for general [debug](screenshots/PuTTY_debug_probe.png)
 
 <details><summary>USB Enumeration</summary>
 <p>  
