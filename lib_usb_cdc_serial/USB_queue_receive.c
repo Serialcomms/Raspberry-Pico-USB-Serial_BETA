@@ -26,15 +26,15 @@ int16_t start_queue_transfer_to_pico(uint8_t EP_NUMBER, void *pico_buffer, uint1
 
     queue_bytes = copy_queue_bytes_to_pico_buffer(EP_NUMBER, pico_buffer, pico_buffer_bytes);
 	  
-	  queue_free = get_queue_free_to_pico(EP_NUMBER);
+    queue_free = get_queue_free_to_pico(EP_NUMBER);
 	  
-	  if (queue_free > 64) {
+    if (queue_free > 64) {
 
-		  pico_endpoint[EP_NUMBER].queue_full = false;
+       pico_endpoint[EP_NUMBER].queue_full = false;
 	  
-		  start_async_receive_data_packet(EP_NUMBER, 64);
+       start_async_receive_data_packet(EP_NUMBER, 64);
 
-		} 
+    } 
 	    
   } else {
 
