@@ -1,6 +1,6 @@
 ## USB Serial Device Stack for Raspberry Pico / Pico-W [^3]
 ### New for 2024, Raspberry Pico SDK Version 2 
-##### Update 26 September 2024- fix Host-to-Pico buffer handler
+##### Update 26 September 2024 : fix Host-to-Pico buffer handler
 
 This (beta version) repository is intended for anyone :-
 
