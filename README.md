@@ -1,6 +1,7 @@
 ## USB Serial Device Stack for Raspberry Pico / Pico-W [^3]
 ### New for 2024, Raspberry Pico SDK Version 2 
 ##### Update 26 September 2024 : fix Host-to-Pico buffer handler
+##### Update 15 October   2024 : updated version in testing
 
 This (beta version) repository is intended for anyone :-
 
@@ -32,6 +33,7 @@ This (beta version) repository is intended for anyone :-
 
 * Copy directory **`lib_usb_cdc_serial`** to your project directory
 * Add **`#include "lib_usb_cdc_serial/API_usb_serial.h"`** to start of your project's `main.c` file
+* Add **`set(SKIP_PICO_STDIO_USB 1)`** to your project's `CMakeLists.txt` file, before `pico_sdk_init()`
 * Add **`add_subdirectory(lib_usb_cdc_serial)`** to your project's `CMakeLists.txt` file
 * Add **`lib_usb_cdc_serial`** to the `target_link_libraries()` section of your project's `CMakeLists.txt`
 * Set **`pico_enable_stdio_usb(your_project_name 0)`** in your project's `CMakeLists.txt` file
@@ -53,6 +55,7 @@ This (beta version) repository is intended for anyone :-
 * Copy directory **`lib_usb_cdc_serial_debug`** to your project directory
 * Add **`#include "lib_usb_cdc_serial_debug/API_usb_serial.h"`** to start of your project's `main.c` file
 * Add **`#include "lib_usb_cdc_serial_debug/include/USB_uart_printf.h"`** to start of your project's `main.c` file
+* Add **`set(SKIP_PICO_STDIO_USB 1)`** to your project's `CMakeLists.txt` file, before `pico_sdk_init()`
 * Add **`add_subdirectory(lib_usb_cdc_serial_debug)`** to your project's `CMakeLists.txt` file
 * Add **`lib_usb_cdc_serial`** to the `target_link_libraries()` section of your project's `CMakeLists.txt`
 * Set **`pico_enable_stdio_usb(your_project_name 0)`** in your project's `CMakeLists.txt` file
