@@ -30,6 +30,7 @@ This (beta version) repository is intended for anyone :-
 * All interrupt-driven, no background tasks or timers required
 * Uses SDK's queues and stdio_driver for stdio integration
 * Library deployment using supplied `CMakeLists.txt` file
+* SDK's stdio library `pico_stdio_usb` not required
 * Modular design to support future developments
 
 </p>
