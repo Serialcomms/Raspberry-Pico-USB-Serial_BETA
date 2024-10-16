@@ -12,7 +12,7 @@ This (beta version) repository is intended for anyone :-
 
 #### 16th October 2024
 
-* functional testing with lurk101/pshell
+* functional testing with lurk101/pshell [fork](https://github.com/Serialcomms/pshell-sc)
 * fix issues identified by above
 * re-arrange endpoints
 
