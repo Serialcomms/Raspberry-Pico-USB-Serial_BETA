@@ -193,6 +193,7 @@ Pico `stdio` and SDK functions all appear to work as expected, including :-
 * [Ataradov USB Sniffer](https://github.com/ataradov/usb-sniffer-lite)
 * [Tana USB Sniffer](https://github.com/tana/pico_usb_sniffer)
 * [phind.com](https://phind.com)
+* [lurk101/pshell](https://github.com/lurk101/pshell)
 
 </p>
 </details>
