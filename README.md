@@ -73,8 +73,9 @@ This (beta version) repository is intended for anyone :-
 * Set **`pico_enable_stdio_usb(your_project_name 0)`** in your project's `CMakeLists.txt` file
 * Set **`pico_enable_stdio_uart(your_project_name 0)`** in your project's `CMakeLists.txt` file
 * Set **`pico_enable_stdio_usb(your_project_name 0)`** in your project's `CMakeLists.txt` file
-* Add **`usb_start_serial(true, true);`** to the **`int main()`** section of your project's `main.c` file
 * Add **`initialise_uart_printf();`** to the **`int main()`** section of your project's `main.c` file
+* Add **`usb_start_serial(true, true);`** to the **`int main()`** section of your project's `main.c` file
+
 * Stub function `void usb_error(uint8_t error_level)` can be used drive error LEDs via GPIO etc. [^2]
 * See [USB Serial Port Functions](documents/functions.md) for functions to add to your program
 
