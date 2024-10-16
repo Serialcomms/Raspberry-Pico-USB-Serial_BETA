@@ -68,6 +68,7 @@ This (beta version) repository is intended for anyone :-
 * Add **`set(SKIP_PICO_STDIO_USB 1)`** to your project's `CMakeLists.txt` file, before `pico_sdk_init()`
 * Add **`add_subdirectory(lib_usb_cdc_serial_debug)`** to your project's `CMakeLists.txt` file
 * Add **`lib_usb_cdc_serial`** to the `target_link_libraries()` section of your project's `CMakeLists.txt`
+* Add **`pico_multicore`** to the `target_link_libraries()` section of your project's `CMakeLists.txt`
 * Set **`pico_enable_stdio_usb(your_project_name 0)`** in your project's `CMakeLists.txt` file
 * Set **`pico_enable_stdio_uart(your_project_name 0)`** in your project's `CMakeLists.txt` file
 * Add **`usb_start_serial(true, true);`** to the **`int main()`** section of your project's `main.c` file
