@@ -73,6 +73,7 @@ This (beta version) repository is intended for anyone :-
 * Set **`pico_enable_stdio_usb(your_project_name 0)`** in your project's `CMakeLists.txt` file
 * Set **`pico_enable_stdio_uart(your_project_name 0)`** in your project's `CMakeLists.txt` file
 * Set **`pico_enable_stdio_usb(your_project_name 0)`** in your project's `CMakeLists.txt` file
+* Set **`(PICO_SDK_VERSION_STRING VERSION_LESS "2.0.0")`** in your project's `CMakeLists.txt` file
 * Add **`initialise_uart_printf();`** to the **`int main()`** section of your project's `main.c` file
 * Add **`usb_start_serial(true, true);`** to the **`int main()`** section of your project's `main.c` file
 
