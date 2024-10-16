@@ -1,13 +1,23 @@
 ## USB Serial Device Stack for Raspberry Pico / Pico-W [^3]
 ### New for 2024, Raspberry Pico SDK Version 2 
-##### Update 26 September 2024 : fix Host-to-Pico buffer handler
-##### Update 15 October   2024 : updated version in testing
 
 This (beta version) repository is intended for anyone :-
 
 * With a general interest in USB CDC/ACM Serial Ports on a Pico device
 * Looking for additional serial port functionality - e.g. port signalling DSR/DCD/Ring to host
-* Looking for an alternative USB Serial Stack device driver for Pico / Pico-W 
+* Looking for an alternative USB Serial Stack device driver for Pico / Pico-W
+
+<details><summary>What's New</summary>
+<p>
+
+#### 16th October 2024
+
+* functional testing with lurk101/pshell
+* fix issues identified by above
+* re-arrange endpoints
+
+</p>
+</details>  
 
 <details><summary>More Information</summary>
 <p>
