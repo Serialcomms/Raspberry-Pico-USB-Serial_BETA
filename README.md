@@ -16,6 +16,11 @@ This (beta version) repository is intended for anyone :-
 * fix issues identified by above
 * re-arrange endpoints
 
+#### 17th October 2024
+
+* Fix EP1 handler defect
+* Add `__not_in_flash_func` to various functions
+
 </p>
 </details>  
 
