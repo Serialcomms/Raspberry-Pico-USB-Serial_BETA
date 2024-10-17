@@ -20,6 +20,7 @@ This (beta version) repository is intended for anyone :-
 
 * Fix EP1 handler defect
 * Add `__not_in_flash_func` to various functions
+* Multicore testing USB IRQ5 offload to core1
 
 </p>
 </details>  
@@ -91,6 +92,35 @@ This (beta version) repository is intended for anyone :-
 
 </p>
 </details> 
+
+<details><summary>Multicore</summary>
+<p>
+
+USB Interrupt IRQ5 can be offloaded to core1 by 
+
+
+* adding `#include "pico/multicore.h"` to main.c
+* adding `multicore_launch_core1(core1_entry)` to main.c;
+* moving `usb_start_serial(true, true);` from `main()` to `core1_entry()` 
+* adding `pico_multicore` to the `target_link_libraries()` section of your project's `CMakeLists.txt`
+
+```
+void core1_entry() {
+
+    usb_start_serial(true, true);
+
+    busy_wait_ms(1);
+
+    while (true) {
+        tight_loop_contents();
+    };
+}
+```
+
+_Currently in testing with pshell_
+
+</p>
+</details>  
 
 <details><summary>Issues</summary>
 <p>
