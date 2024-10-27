@@ -21,7 +21,7 @@ API Functions are provided in files `API_usb_serial.c / API_usb_serial.h`
 
 * `bool p3 = enable suspend/resume`
 
-Pico default LED pulses when in suspend mode
+* Pico default LED pulses when in suspend mode
 
 
 * get functions return `true` or `false` to indicate signal state from host
