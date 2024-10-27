@@ -124,7 +124,7 @@ USB Interrupt IRQ5 can be offloaded to core1 by
 ```
 void core1_entry() {
 
-    usb_start_serial(true, true);
+    usb_start_serial(true, true, true);
 
     busy_wait_ms(1);
 
