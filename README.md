@@ -22,11 +22,12 @@ This (beta version) repository is intended for anyone :-
 * Add `__not_in_flash_func` to various functions
 * Multicore testing USB IRQ5 offload to core1
 
-* #### 27th October 2024
+#### 27th October 2024
 
-* Add USB suspend / resume 
+* Add USB suspend / resume
 * Add USB wakeup host from Pico
 * Consolidate buffer functions
+* 
 </p>
 </details>  
 
