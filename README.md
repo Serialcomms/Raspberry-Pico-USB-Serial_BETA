@@ -10,24 +10,30 @@ This (beta version) repository is intended for anyone :-
 <details><summary>What's New</summary>
 <p>
 
-#### 16th October 2024
+<details><summary>16th October 2024</summary>
 
 * functional testing with lurk101/pshell [fork](https://github.com/Serialcomms/pshell-sc)
 * fix issues identified by above
 * re-arrange endpoints
+  
+</details>   
 
-#### 17th October 2024
+<details><summary>17th October 2024</summary>
 
 * Fix EP1 handler defect
 * Add `__not_in_flash_func` to various functions
 * Multicore testing USB IRQ5 offload to core1
 
-#### 27th October 2024
+</details>     
+
+<details><summary>27th October 2024</summary>
 
 * Add USB suspend / resume
 * Add USB wakeup host from Pico
 * Consolidate buffer functions
-* 
+
+</details>     
+
 </p>
 </details>  
 
