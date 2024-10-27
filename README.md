@@ -4,6 +4,7 @@
 This (beta version) repository is intended for anyone :-
 
 * With a general interest in USB CDC/ACM Serial Ports on a Pico device
+* Looking for additional USB functionality - suspend / resume / wakeup remote (sleeping) host
 * Looking for additional serial port functionality - e.g. port signalling DSR/DCD/Ring to host
 * Looking for an alternative USB Serial Stack device driver for Pico / Pico-W / Other RP2040 boards
 
