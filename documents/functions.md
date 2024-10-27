@@ -13,12 +13,15 @@ API Functions are provided in files `API_usb_serial.c / API_usb_serial.h`
 | `set_com_port_ring(bool ring_state)` | Sets/clears RING INDICATE (RI) signal from Pico to Host                                                       |
 | `get_com_port_dtr() `                | Gets DATA TERMINAL READY (DTR) signal from Host                                                               |
 | `get_com_port_rts()`                 | Gets READY TO SEND (RTS) signal from Host                                                                     |
+| `wakeup_remote_usb_host()`           | Sends remote wakeup to host - e.g. host in sleep mode                                                         |
 
 * `bool p1 = set cr/lf`
 
 * `bool p2 = set exclusive`
 
 * `bool p3 = enable suspend/resume`
+
+Pico default LED pulses when in suspend mode
 
 
 * get functions return `true` or `false` to indicate signal state from host
