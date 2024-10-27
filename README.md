@@ -11,27 +11,31 @@ This (beta version) repository is intended for anyone :-
 <p>
 
 <details><summary>16th October 2024</summary>
-
+<p>
+  
 * functional testing with lurk101/pshell [fork](https://github.com/Serialcomms/pshell-sc)
 * fix issues identified by above
 * re-arrange endpoints
-  
+</p>  
 </details>   
 
 <details><summary>17th October 2024</summary>
+<p>
 
 * Fix EP1 handler defect
 * Add `__not_in_flash_func` to various functions
 * Multicore testing USB IRQ5 offload to core1
-
+</p>
 </details>     
 
 <details><summary>27th October 2024</summary>
-
-* Add USB suspend / resume
-* Add USB wakeup host from Pico
+<p>
+  
 * Consolidate buffer functions
+* Add USB suspend / resume [^4]
+* Add USB wakeup host from Pico
 
+</p>
 </details>     
 
 </p>
@@ -186,7 +190,6 @@ Pico `stdio` and SDK functions all appear to work as expected, including :-
 * Not tested with RP2350 Pico 2
 * Not tested for co-existance with other USB stacks[^1]
 * Not tested with RTOS or heavily-loaded multicore operation
-* Some stdio and port signalling tests are included in the debug demo only
 
 </p>
 </details>  
@@ -300,4 +303,5 @@ Pico `stdio` and SDK functions all appear to work as expected, including :-
 [^1]: May work with PIO/USB Host driver stack
 [^2]: Stub only - further development required
 [^3]: Beta version as of September 2024
+[^4]: Currently only sets led pulse using pwm
 
