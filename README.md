@@ -22,6 +22,11 @@ This (beta version) repository is intended for anyone :-
 * Add `__not_in_flash_func` to various functions
 * Multicore testing USB IRQ5 offload to core1
 
+* #### 27th October 2024
+
+* Add USB suspend / resume 
+* Add USB wakeup host from Pico
+* Consolidate buffer functions
 </p>
 </details>  
 
@@ -55,7 +60,7 @@ This (beta version) repository is intended for anyone :-
 * Add **`lib_usb_cdc_serial`** to the `target_link_libraries()` section of your project's `CMakeLists.txt`
 * Set **`pico_enable_stdio_usb(your_project_name 0)`** in your project's `CMakeLists.txt` file
 * Set **`(PICO_SDK_VERSION_STRING VERSION_LESS "2.0.0")`** in your project's `CMakeLists.txt` file
-* Add **`usb_start_serial(true, true);` to the `int main()`** section of your project's `main.c` file
+* Add **`usb_start_serial(true, true, true);` to the `int main()`** section of your project's `main.c` file
 * Stub function `void usb_error(uint8_t error_level)` can be used drive error LEDs via GPIO etc. [^2] 
 * See [USB Serial Port Functions](documents/functions.md) for functions to add to your program
 
