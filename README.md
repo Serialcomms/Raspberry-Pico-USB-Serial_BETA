@@ -118,7 +118,7 @@ USB Interrupt IRQ5 can be offloaded to core1 by
 
 * adding `#include "pico/multicore.h"` to main.c
 * adding `multicore_launch_core1(core1_entry)` to main.c;
-* moving `usb_start_serial(true, true);` from `main()` to `core1_entry()` 
+* moving `usb_start_serial(true, true, true);` from `main()` to `core1_entry()` 
 * adding `pico_multicore` to the `target_link_libraries()` section of your project's `CMakeLists.txt`
 
 ```
