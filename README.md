@@ -303,6 +303,6 @@ Pico `stdio` and SDK functions all appear to work as expected, including :-
 
 [^1]: May work with PIO/USB Host driver stack
 [^2]: Stub only - further development required
-[^3]: Beta version as of September 2024
+[^3]: Beta version as of October 2024
 [^4]: Currently only sets led pulse using pwm
 
